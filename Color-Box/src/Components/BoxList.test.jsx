@@ -1,4 +1,4 @@
-import { describe, it, expect } from "vitest";
+import { it, expect } from "vitest";
 import { render, fireEvent } from "@testing-library/react";
 import BoxList from "./BoxList";
 

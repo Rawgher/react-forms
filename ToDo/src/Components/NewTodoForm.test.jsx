@@ -1,12 +1,12 @@
 import { it, expect } from "vitest";
 import { render } from "@testing-library/react";
-import NewBoxForm from "./NewBoxForm";
+import NewTodoForm from "./NewTodoForm";
 
 it("renders without crashing", function () {
-  render(<NewBoxForm />);
+  render(<NewTodoForm />);
 });
 
 it("matches snapshot", function () {
-  const { asFragment } = render(<NewBoxForm />);
+  const { asFragment } = render(<NewTodoForm />);
   expect(asFragment()).toMatchSnapshot();
 });

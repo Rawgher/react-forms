@@ -1,5 +1,5 @@
-import { describe, it, expect } from "vitest";
-import { render, fireEvent } from "@testing-library/react";
+import { it, expect } from "vitest";
+import { render } from "@testing-library/react";
 import Box from "./Box";
 
 it("renders without crashing", function () {
